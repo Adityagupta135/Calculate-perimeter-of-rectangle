@@ -1,0 +1,12 @@
+#include<stdio.h>
+ 
+ int main()
+ {
+ int a,b,perimeter;
+ printf("enter the length of a rectangle");
+ scanf("%d",&a);
+ printf("enter the breath of a rectangle");
+ scanf("%d",&b);
+ printf("the perimeter of a rectangle is %d",2*(a+b));
+ return 0;	
+ }
